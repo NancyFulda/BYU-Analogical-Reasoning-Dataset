@@ -1,3 +1,5 @@
+*****THIS README IS STILL BEING CREATED. EXPECT GENERAL CHAOS*****
+
 # BYU-Analogical-Reasoning-Dataset
 A set of python dictionaries containing word-based analogy tasks, originally used in CoRL 2017
 
@@ -6,7 +8,21 @@ The analogy words are augmented with Penn Treebank part-of-speech tags. They inc
 
 Included analogy sets:
 
-accessing_containers
+accessing_containers - 420
+affordance - 2448
+belong - 992
+causation - 210
+containers - 420
+locations for objects - 2070
+rooms for containers - 1406
+rooms for objects - 1406
+tools - 930
+trash or treasure - 552
+travel - 992
+
+11,846 analogies total
+
+
 90 analogies - measures ability to determine how best to access the contents of a container
 jar_NN:open_NN :: box_NN:open_NN
 bottle_NN:pour_VB :: faucet_NN:turn_NN
