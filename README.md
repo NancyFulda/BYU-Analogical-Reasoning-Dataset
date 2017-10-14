@@ -1,17 +1,23 @@
 *****THIS README IS STILL BEING CREATED. EXPECT GENERAL CHAOS*****
 
-##BYU Analogical Reasoning Dataset (BARD)##
+*BYU Analogical Reasoning Dataset (BARD)*
+
 A set of analogy tasks of the form A:B::C:D, intended as a benchmark for analogical reasoning and planning. Analogies are augmented with Penn Treebank part-of-speech tags and include both one-to-many and many-to-one relationships. The dataset contains 23,692 analogies in all.
 
-#Format#
+*Format#*
 The BYU Analogical Reasoning Dataset is provided is four separate formats contained in subdirectories. Each subdirectory contains the same 23,692 analogical queries with the following distinctions.
 
+
 *python* - A set of python dictionaries containing each analogy subcorpus
+
 *python-reversed* - The same dictionaries as *python* but with word positions swapped (i.e. man:woman::king:queen ==> woman:man::queen:king)
+
 *text* - A set of plain text files containing one analogical query per line.
+
 *text-reversed* - The same set of queries as *text* but with word positions swapped (i.e. man:woman::king:queen ==> woman:man::queen:king)
 
-#Analogy Subcorpora#  
+
+*Analogy Subcorpora#*  
 *accessing_containers (420)*
 affordance - 2448
 belong - 992
