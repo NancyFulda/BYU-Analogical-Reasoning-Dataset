@@ -4,10 +4,10 @@ A set of analogy tasks of the form A:B::C:D, intended as a benchmark for analogi
 
 <h2>Format</h2>
 The BYU Analogical Reasoning Dataset is provided is four separate formats contained in subdirectories. Each subdirectory contains the same 23,692 analogical queries with the following distinctions.<br><br>
-<strong>python</strong> - A set of python dictionaries containing each analogy subcorpus<br>
-<strong>python-reversed</strong> - Python dictionaries with word positions swapped (i.e. cereal:box::broom:closet ==> box:cereal:: closet:broom)<br>
 <strong>text</strong> - A set of plain text files containing one analogical query per line.<br>
 <strong>text-reversed</strong> - Plain text files with word positions swapped (i.e. cereal:box::broom:closet ==> box:cereal::closet:broom)<br>
+<strong>python</strong> - A set of python dictionaries containing each analogy subcorpus<br>
+<strong>python-reversed</strong> - Python dictionaries with word positions swapped (i.e. cereal:box::broom:closet ==> box:cereal:: closet:broom)<br>
 
 
 <h2>Analogy Subcorpora</h2> 
