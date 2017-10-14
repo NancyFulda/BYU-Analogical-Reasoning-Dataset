@@ -1,4 +1,4 @@
-**BYU Analogical Reasoning Dataset (BARD)**
+<h1>BYU Analogical Reasoning Dataset (BARD)</h1>
 
 A set of analogy tasks of the form A:B::C:D, intended as a benchmark for analogical reasoning and planning. Analogies are augmented with Penn Treebank part-of-speech tags and include both one-to-many and many-to-one relationships. The dataset contains 23,692 analogies in all.
 
@@ -7,12 +7,10 @@ A set of analogy tasks of the form A:B::C:D, intended as a benchmark for analogi
 The BYU Analogical Reasoning Dataset is provided is four separate formats contained in subdirectories. Each subdirectory contains the same 23,692 analogical queries with the following distinctions.
 
 
-*python* - A set of python dictionaries containing each analogy subcorpus<br>
-*python-reversed* - The same dictionaries as *python* but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)
-
-*text* - A set of plain text files containing one analogical query per line.
-
-*text-reversed* - The same set of queries as *text* but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)
+**python** - A set of python dictionaries containing each analogy subcorpus<br>
+**python-reversed** - The same dictionaries as **python** but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)<br>
+**text** - A set of plain text files containing one analogical query per line.<br>
+**text-reversed** - The same set of queries as **text** but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)<br>
 
 
 **Analogy Subcorpora**  
