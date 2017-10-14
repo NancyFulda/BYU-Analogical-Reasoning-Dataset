@@ -8,11 +8,11 @@ The BYU Analogical Reasoning Dataset is provided is four separate formats contai
 
 *python* - A set of python dictionaries containing each analogy subcorpus
 
-*python-reversed* - The same dictionaries as *python* but with word positions swapped (i.e. man:woman::king:queen ==> woman:man::queen:king)
+*python-reversed* - The same dictionaries as *python* but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)
 
 *text* - A set of plain text files containing one analogical query per line.
 
-*text-reversed* - The same set of queries as *text* but with word positions swapped (i.e. man:woman::king:queen ==> woman:man::queen:king)
+*text-reversed* - The same set of queries as *text* but with word positions swapped (i.e. milk:refrigerator::broom:closet ==> refrigerator:milk:: closet:broom)
 
 
 **Analogy Subcorpora**  
