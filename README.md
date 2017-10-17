@@ -2,6 +2,8 @@
 
 A set of analogy tasks of the form A:B::C:D, intended as a benchmark for analogical reasoning and planning. Analogies are augmented with Penn Treebank part-of-speech tags and include both one-to-many and many-to-one relationships. The dataset contains 23,692 analogies in all.
 
+The dataset was originally introduced in <a href="https://pcc4318.files.wordpress.com/2017/05/corl-2017-harvesting-common-sense-navigational-knowledge-for-robotics-from-uncurated-text-corpora.pdf">Harvesting Common-sense Navigational Knowledge for Robotics from Uncurated Text Corpora, CoRL 2017</a>.
+
 <h2>Format</h2>
 The BYU Analogical Reasoning Dataset is provided is four separate formats contained in subdirectories. Each subdirectory contains the same 23,692 analogical queries with the following distinctions.<br><br>
 <strong>text</strong> - A set of plain text files containing one analogical query per line.<br>
